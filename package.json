@@ -1,0 +1,18 @@
+{
+  "name": "language-ink-atom",
+  "author": "Isak Grozny",
+  "version": "0.0.0",
+  "description": "Atom port of the SublimeText 3 language grammar for inkle's ink language.",
+  "keywords": [
+    "language",
+    "grammar",
+    "ink",
+    "inkle",
+    "interactive fiction"
+  ],
+  "repository": "https://github.com/isakgrozny/language-ink-atom",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}

@@ -1,0 +1,11 @@
+# If you want some example snippets, check out:
+# https://github.com/atom/language-gfm/blob/master/snippets/gfm.cson
+
+'.source.ink':
+  'Knot':
+    'Knot':
+      'prefix': 'knot'
+      'body': '=== $1 ===$0'
+    'Stitch':
+      'prefix': 'stitch'
+      'body': '= $1'
