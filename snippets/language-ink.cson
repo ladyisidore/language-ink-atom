@@ -3,9 +3,35 @@
 
 '.source.ink':
   'Knot':
-    'Knot':
-      'prefix': 'knot'
-      'body': '=== $1 ===$0'
-    'Stitch':
-      'prefix': 'stitch'
-      'body': '= $1'
+    'prefix': 'kn'
+    'body': '=== $1 ===$0'
+  'Stitch':
+    'prefix': 'sti'
+    'body': '= $1'
+  'Include':
+    'prefix': 'inc'
+    'body': 'INCLUDE ${1:folder}/${2:file}.ink$0'
+  'To-Do':
+    'prefix': 'td'
+    'body': 'TODO: $1'
+  'Choice':
+    'prefix': 'ch'
+    'body': '*$1 $2[$3]$0'
+  'Sticky Choice':
+    'prefix': 'cs'
+    'body': '+$1 $2[$3]$0'
+  'Done':
+    'prefix': 'done'
+    'body': '-> DONE$0'
+  'End':
+    'prefix': 'end'
+    'body': '-> END$0'
+  'Emphasis':
+    'prefix': 'em'
+    'body': '<em>$1</em>$0'
+  'Strong':
+    'prefix': 'strong'
+    'body': '<strong>$1</strong>$0'
+  'Footnote':
+    'prefix': 'ft'
+    'body': '<i data-content="$1">$2</data>$0'
