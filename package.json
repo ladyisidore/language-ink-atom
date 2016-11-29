@@ -1,7 +1,7 @@
 {
   "name": "language-ink-atom",
   "author": "Isak Grozny",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Atom port of the SublimeText 3 language grammar for inkle's ink language.",
   "keywords": [
     "language",
